@@ -1,0 +1,12 @@
+prefix=/home/tom/Downloads/Linux/android-builds
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libftdi
+Description: Library to program and control the FTDI USB controller
+Requires:
+Version: 0.20
+Libs: -L${libdir} -lftdi -lusb
+Cflags: -I${includedir}
+

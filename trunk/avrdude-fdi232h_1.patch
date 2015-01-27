@@ -1,0 +1,267 @@
+diff -x .svn -Nuar avrdude/avrdude.conf.in avrdude.new/avrdude.conf.in
+--- avrdude/avrdude.conf.in	2012-02-25 00:48:56.998410900 +1100
++++ avrdude.new/avrdude.conf.in	2012-02-26 00:19:31.019579200 +1100
+@@ -451,6 +451,64 @@
+ # from Amontec
+ ;
+ 
++# UM232H module from FTDI and Glyn.com.au.
++# See helix.air.net.au for detailed usage information.
++# J1: Connect pin 2 and 3 for USB power.
++# J2: Connect pin 2 and 3 for USB power.
++# J2: Pin 7 is SCK
++#   : Pin 8 is MOSI
++#   : Pin 9 is MISO
++#	: Pin 11 is RST
++#   : Pin 6 is ground
++# Use the -b flag to set the SPI clock rate eg -b 3750000 is the fastest I could get
++# a 16MHz Atmega1280 to program reliably.  The 232H is conveniently 5V tolerant.
++programmer
++  id	= "UM232H";
++  desc	= "FT232H based module from FTDI and Glyn.com.au";
++  type	= "avrftdi";
++  usbvid     = 0x0403;
++# Note: This PID is reserved for generic 232H devices and 
++# should be programmed into the EEPROM
++   usbpid    = 0x6014;
++  usbdev = "A";
++  usbvendor  = "";
++  usbproduct = "";
++  usbsn      = "";
++#ISP-signals 
++  sck    = 1;
++  mosi   = 2;
++  miso   = 3;
++  reset  = 4;
++;
++
++# C232HM module from FTDI and Glyn.com.au.
++# : Orange is SCK
++# : Yellow is MOSI
++# : Green is MISO
++# : Brown is RST
++# : Black is ground
++# Use the -b flag to set the SPI clock rate eg -b 3750000 is the fastest I could get
++# a 16MHz Atmega1280 to program reliably.  The 232H is conveniently 5V tolerant.
++programmer
++  id	= "C232HM";
++  desc	= "FT232H based module from FTDI and Glyn.com.au";
++  type	= "avrftdi";
++  usbvid     = 0x0403;
++# Note: This PID is reserved for generic 232H devices and 
++# should be programmed into the EEPROM
++   usbpid    = 0x6014;
++  usbdev = "A";
++  usbvendor  = "";
++  usbproduct = "";
++  usbsn      = "";
++#ISP-signals 
++  sck    = 1;
++  mosi   = 2;
++  miso   = 3;
++  reset  = 4;
++;
++
++
+ # On the adapter you can read "O-Link". On the PCB is printed "OpenJTAG v3.1"
+ # You can find it as "OpenJTAG ARM JTAG USB" in the internet. 
+ # (But there are also several projects called Open JTAG, eg. 
+diff -x .svn -Nuar avrdude/avrftdi.c avrdude.new/avrftdi.c
+--- avrdude/avrftdi.c	2012-02-25 00:48:55.444322000 +1100
++++ avrdude.new/avrftdi.c	2012-02-26 00:04:20.154480700 +1100
+@@ -50,6 +50,12 @@
+ #  error "libusb needs either <usb.h> or <lusb0_usb.h>"
+ #endif
+ 
++#define SPICLK30MHZ 30000000
++#define SPICLK6MHZ 6000000
++#define MAXDIVISOR 65535
++#define FTDIVID 0x0403
++#define FTDI232CPID 0x6010
++
+ #define SCK 0x01
+ #define SDO 0x02
+ #define SDI 0x04
+@@ -60,8 +66,9 @@
+ #define TRX (RX | TX)
+ 
+ #define TYPE_C_D 0x500
+-#define TYPE_H   0x700
++#define TYPE_2H  0x700
+ #define TYPE_4H  0x800
++#define TYPE_H	 0x900
+ 
+ #define E(x, ftdi) if ((x)) { fprintf(stdout, "%s:%d %s() %s: %s (%d)\n\t%s\n", __FILE__, __LINE__, __FUNCTION__, \
+ 	#x, strerror(errno), errno, ftdi_get_error_string(ftdi)); return -1; }
+@@ -75,8 +82,8 @@
+ 	uint16_t pin_direction;
+ 	uint16_t pin_inversion;
+ 	uint16_t led_mask;
+-	int type;  /**type is  bcdDevice. C/D is 0x500 H is 0x700 4H is 0x800*/
+-	int ftype; /** is from FTDI. Use TYPE_2232C, TYPE_2232H, or TYPE_4232H*/
++	int type;  /**type is  bcdDevice. C/D is 0x500 H is 0x700 4H is 0x800, 232H is 0x900*/
++	int ftype; /** is from FTDI. Use TYPE_2232C, TYPE_232H, TYPE_2232H, or TYPE_4232H*/
+ } avrftdi_t;
+ 
+ #define to_pdata(pgm) \
+@@ -106,37 +113,44 @@
+ 	fprintf(stderr, "%s end\n", desc);
+ }
+ 
++/*
++ * The *232H series can clock up to 30MHz.  Older chips like the 232C clock up to 6MHz.
++ * This function will select which mode is appropriate based on the device.
++ * It won't neccessrily mean you can program the chip any faster - it just means the
++ * SPI frequency can be tuned a bit finer.
++ */
+ static int set_frequency(avrftdi_t* ftdi, uint32_t freq)
+ {
+ 	uint32_t divisor;
+ 	uint8_t buf[3];
++	uint32_t clkfreq;
+ 
+-	/* divisor on 6000000 / freq - 1 */
+-	divisor = (6000000 / freq) - 1;
++	if(ftdi->ftype == TYPE_2232C)	{
++		clkfreq = SPICLK6MHZ;
++	}
++	else {
++		clkfreq = SPICLK30MHZ;
++		buf[0] = DIS_DIV_5;
++		E(ftdi_write_data(ftdi->ftdic, buf, 1) < 0, ftdi->ftdic);
++	}
++
++	divisor = (clkfreq / freq) - 1;
+ 	if (divisor < 0) {
+-		fprintf(stderr,
+-			"%s failure: Frequency too high (%u > 6 MHz)\n",
+-			progname, freq);
+-		fprintf(stderr,
+-			"resetting Frequency to 6MHz\n");
++		fprintf(stderr, "%s failure: Frequency too high (%u > %dHz)\n", progname, freq, clkfreq);
++		fprintf(stderr, "resetting Frequency to %dHz\n",clkfreq);
+ 		divisor = 0;
+ 	}
+ 
+-	if (divisor > 65535) {
+-		fprintf(stderr,
+-			"%s failure: Frequency too low (%u < 91.553 Hz)\n",
+-			progname, freq);
+-		fprintf(stderr,
+-			"resetting Frequency to 91.553Hz\n");
+-		divisor = 65535;
++	if (divisor > MAXDIVISOR) {
++		fprintf(stderr, "%s failure: Frequency too low (%u < %dHz)\n", progname, freq, clkfreq/MAXDIVISOR);
++		fprintf(stderr, "resetting Frequency to %dHz\n",clkfreq/MAXDIVISOR);
++		divisor = MAXDIVISOR;
+ 	}
+ 
+ 	if(verbose)
+-		fprintf(stderr,
+-			"%s info: clock divisor: 0x%04x\n",
+-			progname, divisor);
++		fprintf(stderr, "%s info: clock divisor: 0x%04x Actual SPI ClK freq: %.0fHz\n", progname, divisor, clkfreq/(float)(divisor+1));
+ 
+-	buf[0] = 0x86;
++	buf[0] = TCK_DIVISOR;
+ 	buf[1] = (uint8_t)(divisor & 0xff);
+ 	buf[2] = (uint8_t)((divisor >> 8) & 0xff);
+ 
+@@ -156,6 +170,8 @@
+ 		return 11;
+ 	else if(TYPE_2232H == pdata->ftype)
+ 		return 15;
++	else if(TYPE_232H == pdata->ftype)
++		return 15;		
+ 	else{
+ 		fprintf(stderr, "Unknown type %d (0x%x)\n",
+ 			pdata->ftype, pdata->ftype);
+@@ -286,10 +302,10 @@
+ 			"%s info: direction: 0x%04x, value: 0x%04x, inversion: 0x%04x\n",
+ 			progname, pdata->pin_direction, pdata->pin_value, pdata->pin_inversion);
+ 
+-	buf[0] = 0x80;
++	buf[0] = SET_BITS_LOW;
+ 	buf[1] = (pdata->pin_value) & 0xff;
+ 	buf[2] = (pdata->pin_direction) & 0xff;
+-	buf[3] = 0x82;
++	buf[3] = SET_BITS_HIGH;
+ 	buf[4] = ((pdata->pin_value) >> 8) & 0xff;
+ 	buf[5] = ((pdata->pin_direction) >> 8) & 0xff;
+ 
+@@ -412,7 +428,7 @@
+ 		buf[2] = (((buf_size - 1) >> 8) & 0xff);
+ 
+ 		memcpy(buf + 3, cmd, buf_size);
+-		buf[buf_size + 3] = 0x87;
++		buf[buf_size + 3] = SEND_IMMEDIATE;
+ 
+ #ifndef DRYRUN
+ 		E(ftdi_write_data(pdata->ftdic, buf, buf_size + 4) != buf_size + 4, pdata->ftdic);
+@@ -455,12 +471,12 @@
+ 	if (pgm->usbvid)
+ 		vid = pgm->usbvid;
+ 	else
+-		vid = 0x0403;
++		vid = FTDIVID;
+ 
+ 	if (pgm->usbpid)
+ 		pid = pgm->usbpid;
+ 	else
+-		pid = 0x6010;
++		pid = FTDI232CPID;
+ 
+ 	if (0 == pgm->usbsn[0]) /* we don't care about SN. Use first avail. */
+ 		snfound = 1;
+@@ -527,24 +543,26 @@
+ 			progname, vid, pid, pdata->type);
+ 		switch (pdata->type) {
+ 			case TYPE_C_D:
+-			    fprintf(stderr,"C/D"); break;
+-			case TYPE_H:
+-			    fprintf(stderr,"H"); break;
++			    fprintf(stderr,"232C/D"); break;
++			case TYPE_2H:
++			    fprintf(stderr,"2232H"); break;
+ 			case TYPE_4H:
+-			    fprintf(stderr,"4H"); break;
++			    fprintf(stderr,"4232H"); break;
++			case TYPE_H:
++			    fprintf(stderr,"232H"); break;
+ 			default:
+ 			    fprintf(stderr,"unknown %04x",pdata->type); break;
+ 		}
+ 
+ 		fprintf(stderr,") and SN '%s'.\n", foundsn);
+ 	}
+-	if (pdata->type == TYPE_C_D && INTERFACE_B == interface){
++	if ((pdata->type == TYPE_C_D || pdata->type == TYPE_H) && INTERFACE_B == interface){
+ 		fprintf(stderr,
+-			"%s: Type C/D found. Setting interface to A\n",
++			"%s: Type C/D/H found. Setting interface to A\n",
+ 			progname);
+ 		interface = INTERFACE_A;
+ 	}
+-	/*must be A for mpsse if C/D, can be A/B for H */
++	/*must be A for mpsse if C/D/H, can be A/B for 2H/4H */
+ 	if (verbose)
+ 		fprintf(stderr,
+ 			"%s: Using USB Interface %c\n",
+diff -x .svn -Nuar avrdude/doc/avrdude.texi avrdude.new/doc/avrdude.texi
+--- avrdude/doc/avrdude.texi	2012-02-25 00:48:56.034355700 +1100
++++ avrdude.new/doc/avrdude.texi	2012-02-25 00:04:50.114017700 +1100
+@@ -172,10 +172,10 @@
+ The STK600, JTAG ICE mkII, AVRISP mkII, USBasp, avrftdi (and derivitives), and USBtinyISP
+ programmers communicate through the USB, using @code{libusb} as a
+ platform abstraction layer.
+-The avrftdi adds support for the FT2232C/D, FT2232H, and FT4232H devices. These all use 
+-the MPSSE mode, which has a specific pin mapping. Bit 1 (the lsb of the byte in the config
+-file) is SCK. Bit 2 is MOSI, and Bit 3 is MISO. Bit 4 usually reset. The 2232C/D parts
+-are only supported on interface A, but the H parts can be either A or B (specified by the
+++The avrftdi driver adds support for the FT2232C/D, FT232H, FT2232H, and FT4232H devices. These all use 
+++the high speed MPSSE SPI mode, which has a specific pin mapping. Bit 1 (the lsb of the byte in the config
+++file) is SCK. Bit 2 is MOSI, and Bit 3 is MISO. Bit 4 usually reset. The 2232C/D and 232H parts
+++are only supported on interface A, but the 2232H and 4232H parts can be either A or B (specified by the
+ usbdev config parameter).
+ The STK500, STK600, JTAG ICE, and avr910 contain on-board logic to control the programming of the target
+ device.
