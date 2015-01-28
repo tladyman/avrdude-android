@@ -98,9 +98,9 @@ BOOST_CPPFLAGS =
 BOOST_LDFLAGS = 
 CC = /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot
 CCDEPMODE = depmode=gcc3
-CFLAGS =  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include 
+CFLAGS =  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include 
 CPP = /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot
-CPPFLAGS =  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include
+CPPFLAGS =  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include
 CXX = /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot
 CXXCPP = /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -E
 CXXDEPMODE = depmode=gcc3
@@ -127,11 +127,11 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LD = /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-ld --sysroot=/home/tom/Downloads/Linux/tc/sysroot
-LDFLAGS =  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib 
+LDFLAGS =  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib
 LIBFTDI_MODULES = 
 LIBFTDI_MODULES_PKGCONFIG = 
 LIBOBJS = 
-LIBS =  -L/usr/lib/x86_64-linux-gnu -lusb
+LIBS = -lusb -lusb-1.0 -lftdi -L/usr/lib/x86_64-linux-gnu -lusb
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = 
 LN_S = ln -s

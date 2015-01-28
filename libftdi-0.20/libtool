@@ -161,7 +161,7 @@ lock_old_archive_extraction=no
 LTCC="/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot"
 
 # LTCC compiler flags.
-LTCFLAGS=" --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include "
+LTCFLAGS=" --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include "
 
 # Take the output of nm and produce a listing of raw symbols and C names.
 global_symbol_pipe=""

@@ -20,7 +20,7 @@
 /* #undef HAVE_LIBELF_H */
 
 /* Define if FTDI support is enabled via libftdi */
-/* #undef HAVE_LIBFTDI */
+#define HAVE_LIBFTDI 1
 
 /* Define if HID support is enabled via the Win32 DDK */
 /* #undef HAVE_LIBHID */
@@ -35,7 +35,7 @@
 /* #undef HAVE_LIBTERMCAP */
 
 /* Define if USB support is enabled via libusb */
-/* #undef HAVE_LIBUSB */
+#define HAVE_LIBUSB 1
 
 /* Define if USB support is enabled via a libusb-1.0 compatible libusb */
 #define HAVE_LIBUSB_1_0 1
@@ -122,7 +122,7 @@
 #define HAVE_UNISTD_H 1
 
 /* Define to 1 if you have the <usb.h> header file. */
-/* #undef HAVE_USB_H */
+#define HAVE_USB_H 1
 
 /* Define to 1 if you have the `usleep' function. */
 #define HAVE_USLEEP 1

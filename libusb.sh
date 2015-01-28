@@ -27,12 +27,7 @@ cd libusb-1.0.9/
 make clean
 ./configure --host=${CROSS_COMPILE} --prefix=${PREFIX} --disable-shared "$@"
 make install
+cd ..
 
-cd ..
-cd libusb-compat-0.1.3/
-make clean 
-./configure --host=${CROSS_COMPILE} --prefix=${PREFIX} --disable-shared  "$@" 
-make install
-cd ..
 
 

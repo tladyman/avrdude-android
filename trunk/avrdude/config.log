@@ -96,17 +96,17 @@ arm-linux-androideabi-gcc: fatal error: no input files
 compilation terminated.
 configure:3297: $? = 1
 configure:3317: checking whether the C compiler works
-configure:3339: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:3339: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:3343: $? = 0
 configure:3391: result: yes
 configure:3394: checking for C compiler default output file name
 configure:3396: result: a.out
 configure:3402: checking for suffix of executables
-configure:3409: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:3409: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:3413: $? = 0
 configure:3435: result: 
 configure:3457: checking whether we are cross compiling
-configure:3465: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:3465: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:3469: $? = 0
 configure:3476: ./conftest
 ./configure: line 3478: ./conftest: cannot execute binary file: Exec format error
@@ -151,10 +151,10 @@ configure:4199: $? = 0
 configure:4201: checking lex output file root
 configure:4215: result: lex.yy
 configure:4220: checking lex library
-configure:4234: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c   >&5
-/tmp/cckxIz7q.o:conftest.c:function yylex: error: undefined reference to 'yywrap'
-/tmp/cckxIz7q.o:conftest.c:function input: error: undefined reference to 'yywrap'
-/tmp/cckxIz7q.o:conftest.c:function main: error: undefined reference to 'yywrap'
+configure:4234: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c  -lusb -lusb-1.0 -lftdi >&5
+/tmp/ccAC2Dbb.o:conftest.c:function yylex: error: undefined reference to 'yywrap'
+/tmp/ccAC2Dbb.o:conftest.c:function input: error: undefined reference to 'yywrap'
+/tmp/ccAC2Dbb.o:conftest.c:function main: error: undefined reference to 'yywrap'
 collect2: error: ld returned 1 exit status
 configure:4234: $? = 1
 configure: failed program was:
@@ -1954,11 +1954,11 @@ configure: failed program was:
 | {
 |   return ! yylex () + ! yywrap ();
 | }
-configure:4234: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c -lfl  >&5
+configure:4234: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lfl -lusb -lusb-1.0 -lftdi >&5
 /home/tom/Downloads/Linux/tc/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lfl
-/tmp/ccAgIDsz.o:conftest.c:function yylex: error: undefined reference to 'yywrap'
-/tmp/ccAgIDsz.o:conftest.c:function input: error: undefined reference to 'yywrap'
-/tmp/ccAgIDsz.o:conftest.c:function main: error: undefined reference to 'yywrap'
+/tmp/ccQrN4Gq.o:conftest.c:function yylex: error: undefined reference to 'yywrap'
+/tmp/ccQrN4Gq.o:conftest.c:function input: error: undefined reference to 'yywrap'
+/tmp/ccQrN4Gq.o:conftest.c:function main: error: undefined reference to 'yywrap'
 collect2: error: ld returned 1 exit status
 configure:4234: $? = 1
 configure: failed program was:
@@ -3758,11 +3758,11 @@ configure: failed program was:
 | {
 |   return ! yylex () + ! yywrap ();
 | }
-configure:4234: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c -ll  >&5
+configure:4234: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -ll -lusb -lusb-1.0 -lftdi >&5
 /home/tom/Downloads/Linux/tc/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/ld: error: cannot find -ll
-/tmp/cc82klHW.o:conftest.c:function yylex: error: undefined reference to 'yywrap'
-/tmp/cc82klHW.o:conftest.c:function input: error: undefined reference to 'yywrap'
-/tmp/cc82klHW.o:conftest.c:function main: error: undefined reference to 'yywrap'
+/tmp/ccmlyCny.o:conftest.c:function yylex: error: undefined reference to 'yywrap'
+/tmp/ccmlyCny.o:conftest.c:function input: error: undefined reference to 'yywrap'
+/tmp/ccmlyCny.o:conftest.c:function main: error: undefined reference to 'yywrap'
 collect2: error: ld returned 1 exit status
 configure:4234: $? = 1
 configure: failed program was:
@@ -5564,10 +5564,10 @@ configure: failed program was:
 | }
 configure:4244: result: none needed
 configure:4250: checking whether yytext is a pointer
-configure:4267: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c   >&5
-/tmp/cc0nyt78.o:conftest.c:function yylex: error: undefined reference to 'yywrap'
-/tmp/cc0nyt78.o:conftest.c:function input: error: undefined reference to 'yywrap'
-/tmp/cc0nyt78.o:conftest.c:function main: error: undefined reference to 'yywrap'
+configure:4267: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c  -lusb -lusb-1.0 -lftdi >&5
+/tmp/cc6vsuNO.o:conftest.c:function yylex: error: undefined reference to 'yywrap'
+/tmp/cc6vsuNO.o:conftest.c:function input: error: undefined reference to 'yywrap'
+/tmp/cc6vsuNO.o:conftest.c:function main: error: undefined reference to 'yywrap'
 collect2: error: ld returned 1 exit status
 configure:4267: $? = 1
 configure: failed program was:
@@ -7375,9 +7375,9 @@ configure:4315: result: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-r
 configure:4380: checking whether yylex_destroy is generated by flex
 configure:4401: result: version 2.5.35 => yes
 configure:4412: checking for tputs in -ltermcap
-configure:4437: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c -ltermcap   >&5
+configure:4437: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -ltermcap  -lusb -lusb-1.0 -lftdi >&5
 /home/tom/Downloads/Linux/tc/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/ld: error: cannot find -ltermcap
-/tmp/ccgcFgmk.o:conftest.c:function main: error: undefined reference to 'tputs'
+/tmp/ccSkJoqW.o:conftest.c:function main: error: undefined reference to 'tputs'
 collect2: error: ld returned 1 exit status
 configure:4437: $? = 1
 configure: failed program was:
@@ -7409,9 +7409,9 @@ configure: failed program was:
 | }
 configure:4446: result: no
 configure:4457: checking for tputs in -lncurses
-configure:4482: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c -lncurses   >&5
+configure:4482: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lncurses  -lusb -lusb-1.0 -lftdi >&5
 /home/tom/Downloads/Linux/tc/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lncurses
-/tmp/cc64Sf8o.o:conftest.c:function main: error: undefined reference to 'tputs'
+/tmp/ccqaWHf0.o:conftest.c:function main: error: undefined reference to 'tputs'
 collect2: error: ld returned 1 exit status
 configure:4482: $? = 1
 configure: failed program was:
@@ -7443,9 +7443,9 @@ configure: failed program was:
 | }
 configure:4491: result: no
 configure:4502: checking for readline in -lreadline
-configure:4527: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c -lreadline   >&5
+configure:4527: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lreadline  -lusb -lusb-1.0 -lftdi >&5
 /home/tom/Downloads/Linux/tc/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lreadline
-/tmp/ccOnIY5t.o:conftest.c:function main: error: undefined reference to 'readline'
+/tmp/ccS448y6.o:conftest.c:function main: error: undefined reference to 'readline'
 collect2: error: ld returned 1 exit status
 configure:4527: $? = 1
 configure: failed program was:
@@ -7477,9 +7477,9 @@ configure: failed program was:
 | }
 configure:4536: result: no
 configure:4548: checking for elf_begin in -lelf
-configure:4573: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c -lelf   >&5
+configure:4573: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lelf  -lusb -lusb-1.0 -lftdi >&5
 /home/tom/Downloads/Linux/tc/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lelf
-/tmp/ccI0EDDC.o:conftest.c:function main: error: undefined reference to 'elf_begin'
+/tmp/ccCC5zAa.o:conftest.c:function main: error: undefined reference to 'elf_begin'
 collect2: error: ld returned 1 exit status
 configure:4573: $? = 1
 configure: failed program was:
@@ -7511,51 +7511,34 @@ configure: failed program was:
 | }
 configure:4582: result: no
 configure:5009: checking for library containing gethostent
-configure:5040: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:5040: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:5040: $? = 0
 configure:5057: result: none required
 configure:5065: checking for library containing setsockopt
-configure:5096: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:5096: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:5096: $? = 0
 configure:5113: result: none required
 configure:5122: checking for usb_get_string_simple in -lusb
-configure:5147: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c -lusb   >&5
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function libusb_get_descriptor: error: undefined reference to 'libusb_control_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function libusb_get_string_descriptor: error: undefined reference to 'libusb_control_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_init: error: undefined reference to 'libusb_init'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_init: error: undefined reference to 'libusb_set_debug'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_set_debug: error: undefined reference to 'libusb_set_debug'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_busses: error: undefined reference to 'libusb_get_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_busses: error: undefined reference to 'libusb_free_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_busses: error: undefined reference to 'libusb_get_bus_number'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_busses: error: undefined reference to 'libusb_free_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_devices: error: undefined reference to 'libusb_get_bus_number'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_devices: error: undefined reference to 'libusb_get_device_address'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function initialize_device: error: undefined reference to 'libusb_get_device_descriptor'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function initialize_device: error: undefined reference to 'libusb_get_config_descriptor'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function initialize_device: error: undefined reference to 'libusb_free_config_descriptor'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function initialize_device: error: undefined reference to 'libusb_ref_device'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function free_device: error: undefined reference to 'libusb_unref_device'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_find_devices: error: undefined reference to 'libusb_get_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_find_devices: error: undefined reference to 'libusb_free_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_find_devices: error: undefined reference to 'libusb_free_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_open: error: undefined reference to 'libusb_open'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_close: error: undefined reference to 'libusb_close'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_set_configuration: error: undefined reference to 'libusb_set_configuration'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_claim_interface: error: undefined reference to 'libusb_claim_interface'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_release_interface: error: undefined reference to 'libusb_release_interface'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_set_altinterface: error: undefined reference to 'libusb_set_interface_alt_setting'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_clear_halt: error: undefined reference to 'libusb_clear_halt'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_reset: error: undefined reference to 'libusb_reset_device'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_bulk_io: error: undefined reference to 'libusb_bulk_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_interrupt_io: error: undefined reference to 'libusb_interrupt_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_control_msg: error: undefined reference to 'libusb_control_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_get_string_simple: error: undefined reference to 'libusb_get_string_descriptor_ascii'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_get_descriptor_by_endpoint: error: undefined reference to 'libusb_control_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_get_driver_np: error: undefined reference to 'libusb_kernel_driver_active'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_detach_kernel_driver_np: error: undefined reference to 'libusb_detach_kernel_driver'
-collect2: error: ld returned 1 exit status
-configure:5147: $? = 1
+configure:5147: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb  -lusb -lusb-1.0 -lftdi >&5
+configure:5147: $? = 0
+configure:5156: result: yes
+configure:5175: checking usb.h usability
+configure:5175: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:5175: $? = 0
+configure:5175: result: yes
+configure:5175: checking usb.h presence
+configure:5175: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c
+configure:5175: $? = 0
+configure:5175: result: yes
+configure:5175: checking for usb.h
+configure:5175: result: yes
+configure:5187: checking lusb0_usb.h usability
+configure:5187: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+conftest.c:47:23: fatal error: lusb0_usb.h: No such file or directory
+ #include <lusb0_usb.h>
+                       ^
+compilation terminated.
+configure:5187: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "avrdude"
@@ -7567,25 +7550,71 @@ configure: failed program was:
 | #define PACKAGE "avrdude"
 | #define VERSION "5.11svn"
 | #define HAVE_YYLEX_DESTROY 1
+| #define HAVE_LIBUSB 1
+| #define HAVE_USB_H 1
 | /* end confdefs.h.  */
-| 
-| /* Override any GCC internal prototype to avoid an error.
-|    Use char because int might match the return type of a GCC
-|    builtin and then its argument prototype would still apply.  */
-| #ifdef __cplusplus
-| extern "C"
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
 | #endif
-| char usb_get_string_simple ();
-| int
-| main ()
-| {
-| return usb_get_string_simple ();
-|   ;
-|   return 0;
-| }
-configure:5156: result: no
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| #include <lusb0_usb.h>
+configure:5187: result: no
+configure:5187: checking lusb0_usb.h presence
+configure:5187: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c
+conftest.c:14:23: fatal error: lusb0_usb.h: No such file or directory
+ #include <lusb0_usb.h>
+                       ^
+compilation terminated.
+configure:5187: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "avrdude"
+| #define PACKAGE_TARNAME "avrdude"
+| #define PACKAGE_VERSION "5.11svn"
+| #define PACKAGE_STRING "avrdude 5.11svn"
+| #define PACKAGE_BUGREPORT "avrdude-dev@nongnu.org"
+| #define PACKAGE_URL ""
+| #define PACKAGE "avrdude"
+| #define VERSION "5.11svn"
+| #define HAVE_YYLEX_DESTROY 1
+| #define HAVE_LIBUSB 1
+| #define HAVE_USB_H 1
+| /* end confdefs.h.  */
+| #include <lusb0_usb.h>
+configure:5187: result: no
+configure:5187: checking for lusb0_usb.h
+configure:5187: result: no
 configure:5202: checking for libusb_init in -lusb-1.0
-configure:5227: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c -lusb-1.0   >&5
+configure:5227: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb-1.0  -lusb -lusb-1.0 -lftdi >&5
 configure:5227: $? = 0
 configure:5236: result: yes
 configure:5255: checking libusb-1.0/libusb.h usability
@@ -7600,7 +7629,7 @@ configure:5255: checking for libusb-1.0/libusb.h
 configure:5255: result: yes
 configure:5267: checking libusb.h usability
 configure:5267: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
-conftest.c:47:20: fatal error: libusb.h: No such file or directory
+conftest.c:49:20: fatal error: libusb.h: No such file or directory
  #include <libusb.h>
                     ^
 compilation terminated.
@@ -7616,6 +7645,8 @@ configure: failed program was:
 | #define PACKAGE "avrdude"
 | #define VERSION "5.11svn"
 | #define HAVE_YYLEX_DESTROY 1
+| #define HAVE_LIBUSB 1
+| #define HAVE_USB_H 1
 | #define HAVE_LIBUSB_1_0 1
 | #define HAVE_LIBUSB_1_0_LIBUSB_H 1
 | /* end confdefs.h.  */
@@ -7656,7 +7687,7 @@ configure: failed program was:
 configure:5267: result: no
 configure:5267: checking libusb.h presence
 configure:5267: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c
-conftest.c:14:20: fatal error: libusb.h: No such file or directory
+conftest.c:16:20: fatal error: libusb.h: No such file or directory
  #include <libusb.h>
                     ^
 compilation terminated.
@@ -7672,6 +7703,8 @@ configure: failed program was:
 | #define PACKAGE "avrdude"
 | #define VERSION "5.11svn"
 | #define HAVE_YYLEX_DESTROY 1
+| #define HAVE_LIBUSB 1
+| #define HAVE_USB_H 1
 | #define HAVE_LIBUSB_1_0 1
 | #define HAVE_LIBUSB_1_0_LIBUSB_H 1
 | /* end confdefs.h.  */
@@ -7680,111 +7713,15 @@ configure:5267: result: no
 configure:5267: checking for libusb.h
 configure:5267: result: no
 configure:5279: checking for libusb_init in -lusb
-configure:5304: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c -lusb   >&5
-/tmp/ccsmu9Cb.o:conftest.c:function main: error: undefined reference to 'libusb_init'
-collect2: error: ld returned 1 exit status
-configure:5304: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "avrdude"
-| #define PACKAGE_TARNAME "avrdude"
-| #define PACKAGE_VERSION "5.11svn"
-| #define PACKAGE_STRING "avrdude 5.11svn"
-| #define PACKAGE_BUGREPORT "avrdude-dev@nongnu.org"
-| #define PACKAGE_URL ""
-| #define PACKAGE "avrdude"
-| #define VERSION "5.11svn"
-| #define HAVE_YYLEX_DESTROY 1
-| #define HAVE_LIBUSB_1_0 1
-| #define HAVE_LIBUSB_1_0_LIBUSB_H 1
-| /* end confdefs.h.  */
-| 
-| /* Override any GCC internal prototype to avoid an error.
-|    Use char because int might match the return type of a GCC
-|    builtin and then its argument prototype would still apply.  */
-| #ifdef __cplusplus
-| extern "C"
-| #endif
-| char libusb_init ();
-| int
-| main ()
-| {
-| return libusb_init ();
-|   ;
-|   return 0;
-| }
-configure:5313: result: no
+configure:5304: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb  -lusb -lusb-1.0 -lftdi >&5
+configure:5304: $? = 0
+configure:5313: result: yes
 configure:5337: checking for libusb.h
 configure:5337: result: no
 configure:5351: checking for ftdi_usb_get_strings in -lftdi
-configure:5376: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c -lftdi -lusb  >&5
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function libusb_get_descriptor: error: undefined reference to 'libusb_control_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function libusb_get_string_descriptor: error: undefined reference to 'libusb_control_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_init: error: undefined reference to 'libusb_init'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_init: error: undefined reference to 'libusb_set_debug'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_set_debug: error: undefined reference to 'libusb_set_debug'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_busses: error: undefined reference to 'libusb_get_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_busses: error: undefined reference to 'libusb_free_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_busses: error: undefined reference to 'libusb_get_bus_number'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_busses: error: undefined reference to 'libusb_free_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_devices: error: undefined reference to 'libusb_get_bus_number'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function find_devices: error: undefined reference to 'libusb_get_device_address'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function initialize_device: error: undefined reference to 'libusb_get_device_descriptor'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function initialize_device: error: undefined reference to 'libusb_get_config_descriptor'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function initialize_device: error: undefined reference to 'libusb_free_config_descriptor'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function initialize_device: error: undefined reference to 'libusb_ref_device'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function free_device: error: undefined reference to 'libusb_unref_device'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_find_devices: error: undefined reference to 'libusb_get_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_find_devices: error: undefined reference to 'libusb_free_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_find_devices: error: undefined reference to 'libusb_free_device_list'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_open: error: undefined reference to 'libusb_open'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_close: error: undefined reference to 'libusb_close'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_set_configuration: error: undefined reference to 'libusb_set_configuration'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_claim_interface: error: undefined reference to 'libusb_claim_interface'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_release_interface: error: undefined reference to 'libusb_release_interface'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_set_altinterface: error: undefined reference to 'libusb_set_interface_alt_setting'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_clear_halt: error: undefined reference to 'libusb_clear_halt'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_reset: error: undefined reference to 'libusb_reset_device'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_bulk_io: error: undefined reference to 'libusb_bulk_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_interrupt_io: error: undefined reference to 'libusb_interrupt_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_control_msg: error: undefined reference to 'libusb_control_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_get_string_simple: error: undefined reference to 'libusb_get_string_descriptor_ascii'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_get_descriptor_by_endpoint: error: undefined reference to 'libusb_control_transfer'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_get_driver_np: error: undefined reference to 'libusb_kernel_driver_active'
-/home/tom/Downloads/Linux/android-builds/lib/libusb.a(libusb_la-core.o):core.c:function usb_detach_kernel_driver_np: error: undefined reference to 'libusb_detach_kernel_driver'
-collect2: error: ld returned 1 exit status
-configure:5376: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "avrdude"
-| #define PACKAGE_TARNAME "avrdude"
-| #define PACKAGE_VERSION "5.11svn"
-| #define PACKAGE_STRING "avrdude 5.11svn"
-| #define PACKAGE_BUGREPORT "avrdude-dev@nongnu.org"
-| #define PACKAGE_URL ""
-| #define PACKAGE "avrdude"
-| #define VERSION "5.11svn"
-| #define HAVE_YYLEX_DESTROY 1
-| #define HAVE_LIBUSB_1_0 1
-| #define HAVE_LIBUSB_1_0_LIBUSB_H 1
-| #define HAVE_LIBUSB_1_0 1
-| /* end confdefs.h.  */
-| 
-| /* Override any GCC internal prototype to avoid an error.
-|    Use char because int might match the return type of a GCC
-|    builtin and then its argument prototype would still apply.  */
-| #ifdef __cplusplus
-| extern "C"
-| #endif
-| char ftdi_usb_get_strings ();
-| int
-| main ()
-| {
-| return ftdi_usb_get_strings ();
-|   ;
-|   return 0;
-| }
-configure:5385: result: no
+configure:5376: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lftdi -lusb -lusb -lusb-1.0 -lftdi >&5
+configure:5376: $? = 0
+configure:5385: result: yes
 configure:5400: checking pthread.h usability
 configure:5400: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:5400: $? = 0
@@ -7796,7 +7733,7 @@ configure:5400: result: yes
 configure:5400: checking for pthread.h
 configure:5400: result: yes
 configure:5411: checking for pthread_create in -lpthread
-configure:5436: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c -lpthread   >&5
+configure:5436: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lpthread  -lusb -lusb-1.0 -lftdi >&5
 /home/tom/Downloads/Linux/tc/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lpthread
 collect2: error: ld returned 1 exit status
 configure:5436: $? = 1
@@ -7811,9 +7748,12 @@ configure: failed program was:
 | #define PACKAGE "avrdude"
 | #define VERSION "5.11svn"
 | #define HAVE_YYLEX_DESTROY 1
+| #define HAVE_LIBUSB 1
+| #define HAVE_USB_H 1
 | #define HAVE_LIBUSB_1_0 1
 | #define HAVE_LIBUSB_1_0_LIBUSB_H 1
 | #define HAVE_LIBUSB_1_0 1
+| #define HAVE_LIBFTDI 1
 | #define HAVE_PTHREAD_H 1
 | /* end confdefs.h.  */
 | 
@@ -7914,7 +7854,7 @@ configure:5473: checking for unistd.h
 configure:5473: result: yes
 configure:5485: checking for ddk/hidsdi.h
 configure:5485: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
-conftest.c:24:21: fatal error: windows.h: No such file or directory
+conftest.c:27:21: fatal error: windows.h: No such file or directory
  #include <windows.h>
                      ^
 compilation terminated.
@@ -7930,9 +7870,12 @@ configure: failed program was:
 | #define PACKAGE "avrdude"
 | #define VERSION "5.11svn"
 | #define HAVE_YYLEX_DESTROY 1
+| #define HAVE_LIBUSB 1
+| #define HAVE_USB_H 1
 | #define HAVE_LIBUSB_1_0 1
 | #define HAVE_LIBUSB_1_0_LIBUSB_H 1
 | #define HAVE_LIBUSB_1_0 1
+| #define HAVE_LIBFTDI 1
 | #define HAVE_PTHREAD_H 1
 | #define HAVE_LIMITS_H 1
 | #define HAVE_STDLIB_H 1
@@ -7957,55 +7900,55 @@ configure:5601: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sys
 configure:5601: $? = 0
 configure:5608: result: yes
 configure:5621: checking for memset
-configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
-conftest.c:48:6: warning: conflicting types for built-in function 'memset'
+configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
+conftest.c:51:6: warning: conflicting types for built-in function 'memset'
  char memset ();
       ^
 configure:5621: $? = 0
 configure:5621: result: yes
 configure:5621: checking for select
-configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:5621: $? = 0
 configure:5621: result: yes
 configure:5621: checking for strcasecmp
-configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
-conftest.c:50:6: warning: conflicting types for built-in function 'strcasecmp'
+configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
+conftest.c:53:6: warning: conflicting types for built-in function 'strcasecmp'
  char strcasecmp ();
       ^
 configure:5621: $? = 0
 configure:5621: result: yes
 configure:5621: checking for strdup
-configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
-conftest.c:51:6: warning: conflicting types for built-in function 'strdup'
+configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
+conftest.c:54:6: warning: conflicting types for built-in function 'strdup'
  char strdup ();
       ^
 configure:5621: $? = 0
 configure:5621: result: yes
 configure:5621: checking for strerror
-configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:5621: $? = 0
 configure:5621: result: yes
 configure:5621: checking for strncasecmp
-configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
-conftest.c:53:6: warning: conflicting types for built-in function 'strncasecmp'
+configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
+conftest.c:56:6: warning: conflicting types for built-in function 'strncasecmp'
  char strncasecmp ();
       ^
 configure:5621: $? = 0
 configure:5621: result: yes
 configure:5621: checking for strtol
-configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:5621: $? = 0
 configure:5621: result: yes
 configure:5621: checking for strtoul
-configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:5621: $? = 0
 configure:5621: result: yes
 configure:5621: checking for gettimeofday
-configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:5621: $? = 0
 configure:5621: result: yes
 configure:5621: checking for usleep
-configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:5621: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:5621: $? = 0
 configure:5621: result: yes
 configure:5631: checking for a Win32 HID libray
@@ -8015,7 +7958,7 @@ configure:5695: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sys
 configure:5695: $? = 0
 configure:5695: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 conftest.c: In function 'main':
-conftest.c:40:21: error: expected expression before ')' token
+conftest.c:43:21: error: expected expression before ')' token
  if (sizeof ((uint_t)))
                      ^
 configure:5695: $? = 1
@@ -8030,9 +7973,12 @@ configure: failed program was:
 | #define PACKAGE "avrdude"
 | #define VERSION "5.11svn"
 | #define HAVE_YYLEX_DESTROY 1
+| #define HAVE_LIBUSB 1
+| #define HAVE_USB_H 1
 | #define HAVE_LIBUSB_1_0 1
 | #define HAVE_LIBUSB_1_0_LIBUSB_H 1
 | #define HAVE_LIBUSB_1_0 1
+| #define HAVE_LIBFTDI 1
 | #define HAVE_PTHREAD_H 1
 | #define HAVE_LIMITS_H 1
 | #define HAVE_STDLIB_H 1
@@ -8068,10 +8014,10 @@ configure:5695: result: yes
 configure:5706: checking for ulong_t
 configure:5706: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 conftest.c: In function 'main':
-conftest.c:41:13: error: 'ulong_t' undeclared (first use in this function)
+conftest.c:44:13: error: 'ulong_t' undeclared (first use in this function)
  if (sizeof (ulong_t))
              ^
-conftest.c:41:13: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c:44:13: note: each undeclared identifier is reported only once for each function it appears in
 configure:5706: $? = 1
 configure: failed program was:
 | /* confdefs.h */
@@ -8084,9 +8030,12 @@ configure: failed program was:
 | #define PACKAGE "avrdude"
 | #define VERSION "5.11svn"
 | #define HAVE_YYLEX_DESTROY 1
+| #define HAVE_LIBUSB 1
+| #define HAVE_USB_H 1
 | #define HAVE_LIBUSB_1_0 1
 | #define HAVE_LIBUSB_1_0_LIBUSB_H 1
 | #define HAVE_LIBUSB_1_0 1
+| #define HAVE_LIBFTDI 1
 | #define HAVE_PTHREAD_H 1
 | #define HAVE_LIMITS_H 1
 | #define HAVE_STDLIB_H 1
@@ -8127,7 +8076,7 @@ configure:5828: result: /dev/ttyS0
 configure:5847: checking if gcc accepts -Wno-pointer-sign 
 configure:5864: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -Wall -Wno-pointer-sign  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 conftest.c: In function 'main':
-conftest.c:40:6: warning: 'main' is normally a non-static function [-Wmain]
+conftest.c:43:6: warning: 'main' is normally a non-static function [-Wmain]
   int main () { return 0 ; }
       ^
 configure:5864: $? = 0
@@ -8151,14 +8100,14 @@ generated by GNU Autoconf 2.69.  Invocation command line was
 
 on lenny
 
-config.status:906: creating doc/Makefile
-config.status:906: creating windows/Makefile
-config.status:906: creating avrdude.spec
-config.status:906: creating Makefile
-config.status:906: creating avrdude.conf.tmp
-config.status:906: creating ac_cfg.h
-config.status:1087: ac_cfg.h is unchanged
-config.status:1135: executing depfiles commands
+config.status:909: creating doc/Makefile
+config.status:909: creating windows/Makefile
+config.status:909: creating avrdude.spec
+config.status:909: creating Makefile
+config.status:909: creating avrdude.conf.tmp
+config.status:909: creating ac_cfg.h
+config.status:1090: ac_cfg.h is unchanged
+config.status:1138: executing depfiles commands
 configure:7453: WARNING: unrecognized options: --disable-shared
 
 ## ---------------- ##
@@ -8177,9 +8126,9 @@ ac_cv_env_CPPFLAGS_value=' --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/hom
 ac_cv_env_CPP_set=set
 ac_cv_env_CPP_value='/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot'
 ac_cv_env_LDFLAGS_set=set
-ac_cv_env_LDFLAGS_value=' -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib '
-ac_cv_env_LIBS_set=
-ac_cv_env_LIBS_value=
+ac_cv_env_LDFLAGS_value=' -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib'
+ac_cv_env_LIBS_set=set
+ac_cv_env_LIBS_value='-lusb -lusb-1.0 -lftdi'
 ac_cv_env_YACC_set=
 ac_cv_env_YACC_value=
 ac_cv_env_YFLAGS_set=
@@ -8205,6 +8154,7 @@ ac_cv_header_fcntl_h=yes
 ac_cv_header_libusb_1_0_libusb_h=yes
 ac_cv_header_libusb_h=no
 ac_cv_header_limits_h=yes
+ac_cv_header_lusb0_usb_h=no
 ac_cv_header_pthread_h=yes
 ac_cv_header_stdlib_h=yes
 ac_cv_header_string_h=yes
@@ -8213,17 +8163,18 @@ ac_cv_header_sys_time_h=yes
 ac_cv_header_termios_h=yes
 ac_cv_header_time=yes
 ac_cv_header_unistd_h=yes
+ac_cv_header_usb_h=yes
 ac_cv_host=arm-unknown-linux-androideabi
 ac_cv_lib_elf_elf_begin=no
-ac_cv_lib_ftdi_ftdi_usb_get_strings=no
+ac_cv_lib_ftdi_ftdi_usb_get_strings=yes
 ac_cv_lib_lex='none needed'
 ac_cv_lib_ncurses_tputs=no
 ac_cv_lib_pthread_pthread_create=no
 ac_cv_lib_readline_readline=no
 ac_cv_lib_termcap_tputs=no
 ac_cv_lib_usb_1_0_libusb_init=yes
-ac_cv_lib_usb_libusb_init=no
-ac_cv_lib_usb_usb_get_string_simple=no
+ac_cv_lib_usb_libusb_init=yes
+ac_cv_lib_usb_usb_get_string_simple=yes
 ac_cv_objext=o
 ac_cv_path_SED=/bin/sed
 ac_cv_path_install='/usr/bin/install -c'
@@ -8288,17 +8239,17 @@ INSTALL_DATA='${INSTALL} -m 644'
 INSTALL_PROGRAM='${INSTALL}'
 INSTALL_SCRIPT='${INSTALL}'
 INSTALL_STRIP_PROGRAM='$(install_sh) -c -s'
-LDFLAGS=' -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib '
+LDFLAGS=' -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib'
 LEX='flex'
 LEXLIB=''
 LEX_OUTPUT_ROOT='lex.yy'
 LIBELF=''
-LIBFTDI=''
+LIBFTDI='-lftdi -lusb'
 LIBHID=''
 LIBOBJS=''
 LIBPTHREAD=''
-LIBS=''
-LIBUSB=''
+LIBS='-lusb -lusb-1.0 -lftdi'
+LIBUSB='-lusb'
 LIBUSB_1_0='-lusb-1.0'
 LTLIBOBJS=''
 MAKEINFO='makeinfo'
@@ -8388,9 +8339,12 @@ target_vendor='unknown'
 #define PACKAGE "avrdude"
 #define VERSION "5.11svn"
 #define HAVE_YYLEX_DESTROY 1
+#define HAVE_LIBUSB 1
+#define HAVE_USB_H 1
 #define HAVE_LIBUSB_1_0 1
 #define HAVE_LIBUSB_1_0_LIBUSB_H 1
 #define HAVE_LIBUSB_1_0 1
+#define HAVE_LIBFTDI 1
 #define HAVE_PTHREAD_H 1
 #define HAVE_LIMITS_H 1
 #define HAVE_STDLIB_H 1

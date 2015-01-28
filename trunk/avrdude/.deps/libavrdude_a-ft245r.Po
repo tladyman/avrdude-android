@@ -58,7 +58,10 @@ libavrdude_a-ft245r.o: ft245r.c ac_cfg.h \
  ft245r.h /home/tom/Downloads/Linux/tc/sysroot/usr/include/pthread.h \
  /home/tom/Downloads/Linux/tc/sysroot/usr/include/time.h \
  /home/tom/Downloads/Linux/tc/sysroot/usr/include/sched.h \
- /home/tom/Downloads/Linux/tc/sysroot/usr/include/semaphore.h
+ /home/tom/Downloads/Linux/tc/sysroot/usr/include/semaphore.h \
+ /home/tom/Downloads/Linux/android-builds/include/ftdi.h \
+ /home/tom/Downloads/Linux/android-builds/include/usb.h \
+ /home/tom/Downloads/Linux/tc/sysroot/usr/include/dirent.h
 
 ac_cfg.h:
 
@@ -199,3 +202,9 @@ ft245r.h:
 /home/tom/Downloads/Linux/tc/sysroot/usr/include/sched.h:
 
 /home/tom/Downloads/Linux/tc/sysroot/usr/include/semaphore.h:
+
+/home/tom/Downloads/Linux/android-builds/include/ftdi.h:
+
+/home/tom/Downloads/Linux/android-builds/include/usb.h:
+
+/home/tom/Downloads/Linux/tc/sysroot/usr/include/dirent.h:

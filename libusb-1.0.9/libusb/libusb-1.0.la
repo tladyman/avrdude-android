@@ -17,7 +17,7 @@ old_library='libusb-1.0.a'
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib'
+dependency_libs=' -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib -L/usr/lib/x86_64-linux-gnu /home/tom/Downloads/Linux/android-builds/lib/libftdi.la /home/tom/Downloads/Linux/android-builds/lib/libusb.la /home/tom/Downloads/Linux/android-builds/lib/libusb-1.0.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

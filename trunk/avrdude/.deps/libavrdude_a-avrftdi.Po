@@ -55,7 +55,10 @@ libavrdude_a-avrftdi.o: avrftdi.c ac_cfg.h \
  /home/tom/Downloads/Linux/tc/sysroot/usr/include/sys/sysconf.h \
  /home/tom/Downloads/Linux/tc/sysroot/usr/include/linux/capability.h \
  /home/tom/Downloads/Linux/tc/sysroot/usr/include/pathconf.h avrdude.h \
- avr.h avrpart.h lists.h pgm.h pindefs.h serial.h avrftdi.h
+ avr.h avrpart.h lists.h pgm.h pindefs.h serial.h avrftdi.h \
+ /home/tom/Downloads/Linux/android-builds/include/ftdi.h \
+ /home/tom/Downloads/Linux/android-builds/include/usb.h \
+ /home/tom/Downloads/Linux/tc/sysroot/usr/include/dirent.h
 
 ac_cfg.h:
 
@@ -186,3 +189,9 @@ pindefs.h:
 serial.h:
 
 avrftdi.h:
+
+/home/tom/Downloads/Linux/android-builds/include/ftdi.h:
+
+/home/tom/Downloads/Linux/android-builds/include/usb.h:
+
+/home/tom/Downloads/Linux/tc/sysroot/usr/include/dirent.h:

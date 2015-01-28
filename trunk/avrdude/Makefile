@@ -359,17 +359,17 @@ INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
-LDFLAGS =  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib 
+LDFLAGS =  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib
 LEX = flex
 LEXLIB = 
 LEX_OUTPUT_ROOT = lex.yy
 LIBELF = 
-LIBFTDI = 
+LIBFTDI = -lftdi -lusb
 LIBHID = 
 LIBOBJS = 
 LIBPTHREAD = 
-LIBS = 
-LIBUSB = 
+LIBS = -lusb -lusb-1.0 -lftdi
+LIBUSB = -lusb
 LIBUSB_1_0 = -lusb-1.0
 LTLIBOBJS = 
 MAKEINFO = makeinfo
@@ -479,7 +479,7 @@ avrdude_CPPFLAGS = -DCONFIG_DIR=\"$(sysconfdir)\"
 libavrdude_a_CPPFLAGS = -DCONFIG_DIR=\"$(sysconfdir)\"
 avrdude_CFLAGS = -Wall -Wno-pointer-sign
 libavrdude_a_CFLAGS = -Wall -Wno-pointer-sign
-avrdude_LDADD = $(top_builddir)/$(noinst_LIBRARIES)  -lusb-1.0     -lm
+avrdude_LDADD = $(top_builddir)/$(noinst_LIBRARIES) -lusb -lusb-1.0 -lftdi -lusb    -lm
 noinst_LIBRARIES = libavrdude.a
 libavrdude_a_SOURCES = \
 	config_gram.y \

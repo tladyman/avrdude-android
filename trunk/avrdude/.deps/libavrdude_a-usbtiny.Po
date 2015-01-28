@@ -54,7 +54,9 @@ libavrdude_a-usbtiny.o: usbtiny.c ac_cfg.h \
  /home/tom/Downloads/Linux/tc/sysroot/usr/include/sys/sysconf.h \
  /home/tom/Downloads/Linux/tc/sysroot/usr/include/linux/capability.h \
  /home/tom/Downloads/Linux/tc/sysroot/usr/include/pathconf.h avrdude.h \
- avr.h avrpart.h lists.h pgm.h pindefs.h serial.h config.h usbtiny.h
+ avr.h avrpart.h lists.h pgm.h pindefs.h serial.h config.h usbtiny.h \
+ /home/tom/Downloads/Linux/android-builds/include/usb.h \
+ /home/tom/Downloads/Linux/tc/sysroot/usr/include/dirent.h
 
 ac_cfg.h:
 
@@ -185,3 +187,7 @@ serial.h:
 config.h:
 
 usbtiny.h:
+
+/home/tom/Downloads/Linux/android-builds/include/usb.h:
+
+/home/tom/Downloads/Linux/tc/sysroot/usr/include/dirent.h:

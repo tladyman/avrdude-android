@@ -19,14 +19,30 @@ export PREFIX=${DEV_PREFIX}/android-builds
 export PKG_CONFIG_PATH=${PREFIX}/lib/pkgconfig
 export CFLAGS="${CFLAGS} --sysroot=${SYSROOT} -I${SYSROOT}/usr/include -I${ANDROID_PREFIX}/include -I${PREFIX}/include"
 export CPPFLAGS="${CFLAGS}"
-export LDFLAGS="${LDFLAGS} -L${SYSROOT}/usr/lib -L${ANDROID_PREFIX}/lib -L${PREFIX}/lib "
+export LDFLAGS="${LDFLAGS} -L${SYSROOT}/usr/lib  -L${PREFIX}/lib -L${ANDROID_PREFIX}/lib"
+export LIBS="-lusb -lusb-1.0 -lftdi"
 
 
 
-./libusb.sh
+cd libusb-1.0.9/
+make clean
+./configure --host=${CROSS_COMPILE} --prefix=${PREFIX} --disable-shared "$@"
+make install
+
+cd ..
+cd libusb-compat-0.1.3/
+make clean 
+./configure --host=${CROSS_COMPILE} --prefix=${PREFIX} --disable-shared  "$@" 
+make install
+cd ..
 
 
-./libftdi.sh
+cd libftdi-0.20
+./configure --host=${CROSS_COMPILE} --prefix=${PREFIX} --disable-shared "$@"	
+make
+make install
+cd ..
+
 
 mkdir android-builds/include/linux
 cp parport.h android-builds/include/linux/parport.h

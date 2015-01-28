@@ -75,5 +75,5 @@ if test "$echo_cflags" = "yes"; then
 	echo $includes
 fi
 if test "$echo_libs" = "yes"; then
-	echo -L${exec_prefix}/lib -lftdi  -L/usr/lib/x86_64-linux-gnu -lusb
+	echo -L${exec_prefix}/lib -lftdi -lusb -lusb-1.0 -lftdi -L/usr/lib/x86_64-linux-gnu -lusb
 fi

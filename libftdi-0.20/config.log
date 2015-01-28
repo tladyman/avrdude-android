@@ -87,36 +87,36 @@ arm-linux-androideabi-gcc: fatal error: no input files
 compilation terminated.
 configure:3194: $? = 1
 configure:3214: checking whether the C compiler works
-configure:3236: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:3236: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:3240: $? = 0
 configure:3288: result: yes
 configure:3291: checking for C compiler default output file name
 configure:3293: result: a.out
 configure:3299: checking for suffix of executables
-configure:3306: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:3306: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:3310: $? = 0
 configure:3332: result: 
 configure:3354: checking whether we are cross compiling
-configure:3362: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  conftest.c  >&5
+configure:3362: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:3366: $? = 0
 configure:3373: ./conftest
 ./configure: line 3375: ./conftest: cannot execute binary file: Exec format error
 configure:3377: $? = 126
 configure:3392: result: yes
 configure:3397: checking for suffix of object files
-configure:3419: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:3419: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:3423: $? = 0
 configure:3444: result: o
 configure:3448: checking whether we are using the GNU C compiler
-configure:3467: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:3467: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:3467: $? = 0
 configure:3476: result: yes
 configure:3485: checking whether /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot accepts -g
-configure:3505: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:3505: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:3505: $? = 0
 configure:3546: result: yes
 configure:3563: checking for /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot option to accept ISO C89
-configure:3627: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot  -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:3627: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot  -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:3627: $? = 0
 configure:3640: result: none needed
 configure:3671: checking for style of include used by make
@@ -144,7 +144,7 @@ configure:4412: result: yes
 configure:4424: checking for BSD- or MS-compatible name lister (nm)
 configure:4473: result: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm --sysroot=/home/tom/Downloads/Linux/tc/sysroot
 configure:4603: checking the name lister (/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm --sysroot=/home/tom/Downloads/Linux/tc/sysroot) interface
-configure:4610: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:4610: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:4613: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm --sysroot=/home/tom/Downloads/Linux/tc/sysroot "conftest.o"
 /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm: unrecognized option '--sysroot=/home/tom/Downloads/Linux/tc/sysroot'
 Usage: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm [option(s)] [file(s)]
@@ -219,7 +219,7 @@ configure:5423: result: printf %s\n
 configure:5440: checking for arm-linux-androideabi-ar
 configure:5467: result: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-ar 
 configure:5548: checking for archiver @FILE support
-configure:5565: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:5565: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:5565: $? = 0
 configure:5568: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-ar  cru libconftest.a @conftest.lst >&5
 configure:5571: $? = 0
@@ -232,7 +232,7 @@ configure:5636: result: strip
 configure:5708: checking for arm-linux-androideabi-ranlib
 configure:5735: result: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-ranlib 
 configure:5877: checking command to parse /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm --sysroot=/home/tom/Downloads/Linux/tc/sysroot output from /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot object
-configure:5996: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:5996: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:5999: $? = 0
 configure:6003: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm --sysroot=/home/tom/Downloads/Linux/tc/sysroot conftest.o \| sed -n -e 's/^.*[ ]\([BCDEGRST][BCDEGRST]*\)[ ][ ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' \> conftest.nm
 /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm: unrecognized option '--sysroot=/home/tom/Downloads/Linux/tc/sysroot'
@@ -277,7 +277,7 @@ Usage: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm [option(s)] [fi
 /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm: supported targets: elf32-littlearm elf32-bigarm elf32-little elf32-big plugin srec symbolsrec verilog tekhex binary ihex
 configure:6006: $? = 0
 cannot run sed -n -e 's/^.*[	 ]\([BCDEGRST][BCDEGRST]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d'
-configure:5996: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:5996: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:5999: $? = 0
 configure:6003: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm --sysroot=/home/tom/Downloads/Linux/tc/sysroot conftest.o \| sed -n -e 's/^.*[ ]\([BCDEGRST][BCDEGRST]*\)[ ][ ]*_\([_A-Za-z][_A-Za-z0-9]*\)$/\1 _\2 \2/p' | sed '/ __gnu_lto/d' \> conftest.nm
 /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-nm: unrecognized option '--sysroot=/home/tom/Downloads/Linux/tc/sysroot'
@@ -335,9 +335,9 @@ configure:6479: mt '-?'
 configure:6487: result: no
 configure:7119: checking how to run the C preprocessor
 configure:7189: result: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot
-configure:7209: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c
+configure:7209: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c
 configure:7209: $? = 0
-configure:7223: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c
+configure:7223: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c
 conftest.c:11:28: fatal error: ac_nonexistent.h: No such file or directory
  #include <ac_nonexistent.h>
                             ^
@@ -356,66 +356,66 @@ configure: failed program was:
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
 configure:7252: checking for ANSI C header files
-configure:7272: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:7272: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:7272: $? = 0
 configure:7356: result: yes
 configure:7369: checking for sys/types.h
-configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:7369: $? = 0
 configure:7369: result: yes
 configure:7369: checking for sys/stat.h
-configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:7369: $? = 0
 configure:7369: result: yes
 configure:7369: checking for stdlib.h
-configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:7369: $? = 0
 configure:7369: result: yes
 configure:7369: checking for string.h
-configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:7369: $? = 0
 configure:7369: result: yes
 configure:7369: checking for memory.h
-configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:7369: $? = 0
 configure:7369: result: yes
 configure:7369: checking for strings.h
-configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:7369: $? = 0
 configure:7369: result: yes
 configure:7369: checking for inttypes.h
-configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:7369: $? = 0
 configure:7369: result: yes
 configure:7369: checking for stdint.h
-configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:7369: $? = 0
 configure:7369: result: yes
 configure:7369: checking for unistd.h
-configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:7369: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:7369: $? = 0
 configure:7369: result: yes
 configure:7383: checking for dlfcn.h
-configure:7383: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:7383: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 configure:7383: $? = 0
 configure:7383: result: yes
 configure:7570: checking for objdir
 configure:7585: result: .libs
 configure:7852: checking if /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot supports -fno-rtti -fno-exceptions
-configure:7870: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include -fno-rtti -fno-exceptions conftest.c >&5
+configure:7870: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include -fno-rtti -fno-exceptions conftest.c >&5
 cc1: warning: command line option '-fno-rtti' is valid for C++/ObjC++ but not for C
 configure:7874: $? = 0
 configure:7887: result: no
 configure:8197: checking for /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot option to produce PIC
 configure:8204: result: -fPIC -DPIC
 configure:8212: checking if /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot PIC flag -fPIC -DPIC works
-configure:8230: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include -fPIC -DPIC -DPIC conftest.c >&5
+configure:8230: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include -fPIC -DPIC -DPIC conftest.c >&5
 configure:8234: $? = 0
 configure:8247: result: yes
 configure:8276: checking if /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot static flag -static works
 configure:8304: result: yes
 configure:8319: checking if /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot supports -c -o file.o
-configure:8340: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include -o out/conftest2.o conftest.c >&5
+configure:8340: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include -o out/conftest2.o conftest.c >&5
 configure:8344: $? = 0
 configure:8366: result: yes
 configure:8374: checking if /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot supports -c -o file.o
@@ -423,7 +423,7 @@ configure:8421: result: yes
 configure:8454: checking whether the /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot linker (/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-ld --sysroot=/home/tom/Downloads/Linux/tc/sysroot) supports shared libraries
 configure:9612: result: yes
 configure:9857: checking dynamic linker characteristics
-configure:10371: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  -Wl,-rpath -Wl,/foo conftest.c  >&5
+configure:10371: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -o conftest  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib -Wl,-rpath -Wl,/foo conftest.c -lusb -lusb-1.0 -lftdi >&5
 configure:10371: $? = 0
 configure:10597: result: GNU/Linux ld.so
 configure:10704: checking how to hardcode library paths into programs
@@ -464,19 +464,19 @@ arm-linux-androideabi-g++: fatal error: no input files
 compilation terminated.
 configure:11509: $? = 1
 configure:11513: checking whether we are using the GNU C++ compiler
-configure:11532: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c   --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp >&5
+configure:11532: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c   --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp >&5
 configure:11532: $? = 0
 configure:11541: result: yes
 configure:11550: checking whether /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot accepts -g
-configure:11570: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp >&5
+configure:11570: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp >&5
 configure:11570: $? = 0
 configure:11611: result: yes
 configure:11636: checking dependency style of /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot
 configure:11746: result: gcc3
 configure:11779: checking how to run the C++ preprocessor
-configure:11806: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -E  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp
+configure:11806: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -E  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp
 configure:11806: $? = 0
-configure:11820: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -E  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp
+configure:11820: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -E  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp
 conftest.cpp:23:28: fatal error: ac_nonexistent.h: No such file or directory
  #include <ac_nonexistent.h>
                             ^
@@ -507,9 +507,9 @@ configure: failed program was:
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
 configure:11845: result: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -E
-configure:11865: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -E  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp
+configure:11865: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -E  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp
 configure:11865: $? = 0
-configure:11879: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -E  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp
+configure:11879: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -E  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp
 conftest.cpp:23:28: fatal error: ac_nonexistent.h: No such file or directory
  #include <ac_nonexistent.h>
                             ^
@@ -545,18 +545,18 @@ configure:12123: checking if the linker (/home/tom/Downloads/Linux/tc/bin/arm-li
 configure:12138: result: yes
 configure:12193: checking whether the /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot linker (/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-ld --sysroot=/home/tom/Downloads/Linux/tc/sysroot) supports shared libraries
 configure:13197: result: yes
-configure:13232: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g -O2  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp >&5
+configure:13232: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g -O2  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.cpp >&5
 configure:13235: $? = 0
 configure:13755: checking for /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot option to produce PIC
 configure:13762: result: -fPIC -DPIC
 configure:13770: checking if /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot PIC flag -fPIC -DPIC works
-configure:13788: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g -O2  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include -fPIC -DPIC -DPIC conftest.cpp >&5
+configure:13788: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g -O2  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include -fPIC -DPIC -DPIC conftest.cpp >&5
 configure:13792: $? = 0
 configure:13805: result: yes
 configure:13828: checking if /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot static flag -static works
 configure:13856: result: yes
 configure:13868: checking if /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot supports -c -o file.o
-configure:13889: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g -O2  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include -o out/conftest2.o conftest.cpp >&5
+configure:13889: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g -O2  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include -o out/conftest2.o conftest.cpp >&5
 configure:13893: $? = 0
 configure:13915: result: yes
 configure:13920: checking if /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot supports -c -o file.o
@@ -575,7 +575,7 @@ configure:15037: result: libusb-config
 configure:15070: checking if libusb version is >= 0.1.7
 configure:15080: result: yes
 configure:15171: checking for boostlib >= 1.33
-configure:15225: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g -O2  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  conftest.cpp >&5
+configure:15225: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g -O2  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include  conftest.cpp >&5
 conftest.cpp:24:30: fatal error: boost/version.hpp: No such file or directory
   #include <boost/version.hpp>
                               ^
@@ -620,7 +620,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:15327: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g -O2  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include   conftest.cpp >&5
+configure:15327: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c -g -O2  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include   conftest.cpp >&5
 conftest.cpp:24:31: fatal error: boost/version.hpp: No such file or directory
    #include <boost/version.hpp>
                                ^
@@ -688,7 +688,7 @@ configure:15693: result: ${prefix}/lib/python2.7/site-packages
 configure:15702: checking for python extension module directory
 configure:15731: result: ${exec_prefix}/lib/python2.7/site-packages
 configure:15750: checking /usr/include/python2.7/Python.h usability
-configure:15750: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include   --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
+configure:15750: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot -c  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include   --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c >&5
 In file included from /usr/include/python2.7/Python.h:8:0,
                  from conftest.c:56:
 /usr/include/python2.7/pyconfig.h:15:52: fatal error: arm-linux-gnueabi/python2.7/pyconfig.h: No such file or directory
@@ -755,7 +755,7 @@ configure: failed program was:
 | #include </usr/include/python2.7/Python.h>
 configure:15750: result: no
 configure:15750: checking /usr/include/python2.7/Python.h presence
-configure:15750: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c
+configure:15750: /home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot  --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include conftest.c
 In file included from /usr/include/python2.7/Python.h:8:0,
                  from conftest.c:23:
 /usr/include/python2.7/pyconfig.h:15:52: fatal error: arm-linux-gnueabi/python2.7/pyconfig.h: No such file or directory
@@ -811,21 +811,21 @@ generated by GNU Autoconf 2.68.  Invocation command line was
 
 on lenny
 
-config.status:1197: creating libftdi-config
-config.status:1197: creating Makefile
-config.status:1197: creating src/Makefile
-config.status:1197: creating bindings/Makefile
-config.status:1197: creating bindings/python/Makefile
-config.status:1197: creating bindings/python/setup.py
-config.status:1197: creating examples/Makefile
-config.status:1197: creating doc/Doxyfile
-config.status:1197: creating doc/Makefile
-config.status:1197: creating libftdi.pc
-config.status:1197: creating libftdi.spec
-config.status:1197: creating config.h
-config.status:1378: config.h is unchanged
-config.status:1426: executing depfiles commands
-config.status:1426: executing libtool commands
+config.status:1194: creating libftdi-config
+config.status:1194: creating Makefile
+config.status:1194: creating src/Makefile
+config.status:1194: creating bindings/Makefile
+config.status:1194: creating bindings/python/Makefile
+config.status:1194: creating bindings/python/setup.py
+config.status:1194: creating examples/Makefile
+config.status:1194: creating doc/Doxyfile
+config.status:1194: creating doc/Makefile
+config.status:1194: creating libftdi.pc
+config.status:1194: creating libftdi.spec
+config.status:1194: creating config.h
+config.status:1375: config.h is unchanged
+config.status:1423: executing depfiles commands
+config.status:1423: executing libtool commands
 
 ## ---------------- ##
 ## Cache variables. ##
@@ -839,9 +839,9 @@ ac_cv_env_CCC_value=
 ac_cv_env_CC_set=set
 ac_cv_env_CC_value='/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot'
 ac_cv_env_CFLAGS_set=set
-ac_cv_env_CFLAGS_value=' --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include'
+ac_cv_env_CFLAGS_value=' --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include'
 ac_cv_env_CPPFLAGS_set=set
-ac_cv_env_CPPFLAGS_value=' --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include'
+ac_cv_env_CPPFLAGS_value=' --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include'
 ac_cv_env_CPP_set=set
 ac_cv_env_CPP_value='/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot'
 ac_cv_env_CXXCPP_set=
@@ -851,9 +851,9 @@ ac_cv_env_CXXFLAGS_value=
 ac_cv_env_CXX_set=set
 ac_cv_env_CXX_value='/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot'
 ac_cv_env_LDFLAGS_set=set
-ac_cv_env_LDFLAGS_value=' -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib '
-ac_cv_env_LIBS_set=
-ac_cv_env_LIBS_value=
+ac_cv_env_LDFLAGS_value=' -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib'
+ac_cv_env_LIBS_set=set
+ac_cv_env_LIBS_value='-lusb -lusb-1.0 -lftdi'
 ac_cv_env_build_alias_set=
 ac_cv_env_build_alias_value=
 ac_cv_env_host_alias_set=set
@@ -955,9 +955,9 @@ BUILD_EXAMPLES_FALSE='#'
 BUILD_EXAMPLES_TRUE=''
 CC='/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-gcc --sysroot=/home/tom/Downloads/Linux/tc/sysroot'
 CCDEPMODE='depmode=gcc3'
-CFLAGS=' --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include '
+CFLAGS=' --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include '
 CPP='/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-cpp --sysroot=/home/tom/Downloads/Linux/tc/sysroot'
-CPPFLAGS=' --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include'
+CPPFLAGS=' --sysroot=/home/tom/Downloads/Linux/tc/sysroot -I/home/tom/Downloads/Linux/tc/sysroot/usr/include -I/home/tom/Downloads/Linux/tc/include -I/home/tom/Downloads/Linux/android-builds/include'
 CXX='/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot'
 CXXCPP='/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-g++ --sysroot=/home/tom/Downloads/Linux/tc/sysroot -E'
 CXXDEPMODE='depmode=gcc3'
@@ -993,11 +993,11 @@ INSTALL_PROGRAM='${INSTALL}'
 INSTALL_SCRIPT='${INSTALL}'
 INSTALL_STRIP_PROGRAM='$(install_sh) -c -s'
 LD='/home/tom/Downloads/Linux/tc/bin/arm-linux-androideabi-ld --sysroot=/home/tom/Downloads/Linux/tc/sysroot'
-LDFLAGS=' -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib  -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib -L/home/tom/Downloads/Linux/tc/lib -L/home/tom/Downloads/Linux/android-builds/lib '
+LDFLAGS=' -L/home/tom/Downloads/Linux/tc/sysroot/usr/lib  -L/home/tom/Downloads/Linux/android-builds/lib -L/home/tom/Downloads/Linux/tc/lib'
 LIBFTDI_MODULES=''
 LIBFTDI_MODULES_PKGCONFIG=''
 LIBOBJS=''
-LIBS=' -L/usr/lib/x86_64-linux-gnu -lusb'
+LIBS='-lusb -lusb-1.0 -lftdi -L/usr/lib/x86_64-linux-gnu -lusb'
 LIBTOOL='$(SHELL) $(top_builddir)/libtool'
 LIPO=''
 LN_S='ln -s'
