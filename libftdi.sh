@@ -17,9 +17,9 @@ export RANLIB="${CROSS_PATH}-ranlib "
 
 export PREFIX=${DEV_PREFIX}/android-builds
 export PKG_CONFIG_PATH=${PREFIX}/lib/pkgconfig
-export CFLAGS="${CFLAGS} --sysroot=${SYSROOT} -I${SYSROOT}/usr/include -I${ANDROID_PREFIX}/include -I${PREFIX}/include"
+export CFLAGS="${CFLAGS} --sysroot=${SYSROOT} -I${SYSROOT}/usr/include -I${ANDROID_PREFIX}/include -I${PREFIX}/include -fPIE"
 export CPPFLAGS="${CFLAGS}"
-export LDFLAGS="${LDFLAGS} -L${SYSROOT}/usr/lib -L${ANDROID_PREFIX}/lib -L${PREFIX}/lib -lusb"
+export LDFLAGS="${LDFLAGS} -L${SYSROOT}/usr/lib -L${ANDROID_PREFIX}/lib -L${PREFIX}/lib -lusb -pie"
 
 cd libftdi-0.20
 ./configure --host=${CROSS_COMPILE} --prefix=${PREFIX} --disable-shared "$@"	
