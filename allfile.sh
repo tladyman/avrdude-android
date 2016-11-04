@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export DEV_PREFIX=/home/tom/Downloads/Linux
+export DEV_PREFIX=$PWD
 export CROSS_COMPILE=arm-linux-androideabi
 export ANDROID_PREFIX=${DEV_PREFIX}/tc
 export SYSROOT=${ANDROID_PREFIX}/sysroot
@@ -34,8 +34,8 @@ cd libusb-compat-0.1.3/
 make clean 
 ./configure --host=${CROSS_COMPILE} --prefix=${PREFIX} --disable-shared  "$@" 
 make install
-cd ..
 
+cd ..
 
 cd libftdi-0.20
 ./configure --host=${CROSS_COMPILE} --prefix=${PREFIX} --disable-shared "$@"	

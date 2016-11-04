@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export DEV_PREFIX=/home/tom/Downloads/Linux
+export DEV_PREFIX=$PWD
 export CROSS_COMPILE=arm-linux-androideabi
 export ANDROID_PREFIX=${DEV_PREFIX}/tc
 export SYSROOT=${ANDROID_PREFIX}/sysroot
