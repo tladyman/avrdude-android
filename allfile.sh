@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export DEV_PREFIX=/home/tom/Downloads/Linux
+export DEV_PREFIX=$PWD
 export CROSS_COMPILE=arm-linux-androideabi
 export ANDROID_PREFIX=${DEV_PREFIX}/tc
 export SYSROOT=${ANDROID_PREFIX}/sysroot
@@ -17,9 +17,9 @@ export RANLIB="${CROSS_PATH}-ranlib "
 
 export PREFIX=${DEV_PREFIX}/android-builds
 export PKG_CONFIG_PATH=${PREFIX}/lib/pkgconfig
-export CFLAGS="${CFLAGS} --sysroot=${SYSROOT} -I${SYSROOT}/usr/include -I${ANDROID_PREFIX}/include -I${PREFIX}/include"
+export CFLAGS="${CFLAGS} --sysroot=${SYSROOT} -I${SYSROOT}/usr/include -I${ANDROID_PREFIX}/include -I${PREFIX}/include -fPIE"
 export CPPFLAGS="${CFLAGS}"
-export LDFLAGS="${LDFLAGS} -L${SYSROOT}/usr/lib  -L${PREFIX}/lib -L${ANDROID_PREFIX}/lib"
+export LDFLAGS="${LDFLAGS} -L${SYSROOT}/usr/lib  -L${PREFIX}/lib -L${ANDROID_PREFIX}/lib -pie"
 export LIBS="-lusb -lusb-1.0 -lftdi"
 
 
@@ -34,8 +34,8 @@ cd libusb-compat-0.1.3/
 make clean 
 ./configure --host=${CROSS_COMPILE} --prefix=${PREFIX} --disable-shared  "$@" 
 make install
-cd ..
 
+cd ..
 
 cd libftdi-0.20
 ./configure --host=${CROSS_COMPILE} --prefix=${PREFIX} --disable-shared "$@"	
